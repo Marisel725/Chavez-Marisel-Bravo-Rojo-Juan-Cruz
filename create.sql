@@ -1,0 +1,1 @@
+//al crear la tabla mantener el orden de los atributos.
