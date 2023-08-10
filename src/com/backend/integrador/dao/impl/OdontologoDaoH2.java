@@ -75,6 +75,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             ResultSet key = ps.executeQuery();
 
             while (key.next()){
+
                 odontologos.add(crearObjetoOdontologo(key));
             }
 
