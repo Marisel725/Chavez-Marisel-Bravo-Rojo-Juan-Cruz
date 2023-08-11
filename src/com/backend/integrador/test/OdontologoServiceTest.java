@@ -22,6 +22,7 @@ public class OdontologoServiceTest {
      @Test
 
      public void ListarOdontologosConNuevoRegistro(){
+          //fijense que no estan realmente testeando lo que desean comprobar...
           Odontologo odontologo1 = new Odontologo(34562,"Gala","Chavez");
           Odontologo agregarOdontologo = odontologoService.guardarOdontologo(odontologo1);
           List<Odontologo> odontologosTest = odontologoService.listarOdontologos();
