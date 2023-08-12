@@ -12,11 +12,11 @@ public class OdontologoService {
         this.odontologoIDao = odontologoIDao;
     }
 
-    public Odontologo guardarOdontologo(Odontologo odontologo){
-        return odontologoIDao.guardarOdontologo(odontologo);
+    public Odontologo guardar(Odontologo odontologo){
+        return odontologoIDao.guardar(odontologo);
     }
 
-    public List<Odontologo> listarOdontologos(){
-        return  odontologoIDao.listarOdontologos();
+    public List<Odontologo> listarTodos(){
+        return  odontologoIDao.listarTodos();
     }
 }

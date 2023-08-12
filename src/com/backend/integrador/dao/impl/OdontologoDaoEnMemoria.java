@@ -16,14 +16,14 @@ public class OdontologoDaoEnMemoria  implements IDao<Odontologo> {
     }
 
     @Override
-    public Odontologo guardarOdontologo(Odontologo odontologo) {
+    public Odontologo guardar(Odontologo odontologo) {
         odontologosRepositorio.add(odontologo);
         LOGGER.info("Odontólogo guardado: " + odontologo);
         return odontologo;
     }
 
     @Override
-    public List<Odontologo> listarOdontologos() {
+    public List<Odontologo> listarTodos() {
         LOGGER.info("Listado de los odontólogos : " + odontologosRepositorio);
         return odontologosRepositorio;
     }

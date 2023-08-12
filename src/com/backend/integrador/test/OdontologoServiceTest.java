@@ -15,18 +15,18 @@ public class OdontologoServiceTest {
 
      @Test
      public void deberíaListarTodosLosOdontologos(){
-          List<Odontologo> odontologosTest = odontologoService.listarOdontologos();
+          List<Odontologo> odontologosTest = odontologoService.listarTodos();
           assertFalse(odontologosTest.isEmpty());
      }
 
      @Test
 
      public void ListarOdontologosConNuevoRegistro(){
-          //fijense que no estan realmente testeando lo que desean comprobar...
           Odontologo odontologo1 = new Odontologo(34562,"Gala","Chavez");
-          Odontologo agregarOdontologo = odontologoService.guardarOdontologo(odontologo1);
-          List<Odontologo> odontologosTest = odontologoService.listarOdontologos();
-          assertFalse(odontologosTest.isEmpty());
+          Odontologo agregarOdontologo = odontologoService.guardar(odontologo1);
+
+          assertNotNull(agregarOdontologo);
+          assertEquals(34562, agregarOdontologo.getMatricula());
 
      }
 

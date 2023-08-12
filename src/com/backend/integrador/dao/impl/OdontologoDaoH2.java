@@ -14,7 +14,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
 
     @Override
-    public Odontologo guardarOdontologo(Odontologo odontologo) {
+    public Odontologo guardar(Odontologo odontologo) {
         Connection connection = null;
         Odontologo odontologo1 = null;
         try {
@@ -65,7 +65,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     }
 
     @Override
-    public List<Odontologo> listarOdontologos() {
+    public List<Odontologo> listarTodos() {
         Connection connection = null;
         List<Odontologo> odontologos = new ArrayList<>();
         try {

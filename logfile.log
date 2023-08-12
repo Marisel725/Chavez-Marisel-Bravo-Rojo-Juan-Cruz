@@ -65,3 +65,16 @@ INSERT INTO ODONTOLOGOS (MATRICULA , NOMBRE, APELLIDO) VALUE (? , ?, ?)  [42001-
  ID : 2 -Odontólogo: Bravo,Juan  -Matrícula: 678904., 
  ID : 3 -Odontólogo: Bilicki,Denis  -Matrícula: 90876., 
  ID : 4 -Odontólogo: Chavez,Gala  -Matrícula: 34562.]
+[2023-08-12 15:31:42] [ INFO ] [OdontologoDaoH2:82] Listado de los odontólogos :[
+ ID : 1 -Odontólogo: Chavez,Marisel  -Matrícula: 456789., 
+ ID : 2 -Odontólogo: Bravo,Juan  -Matrícula: 678904., 
+ ID : 3 -Odontólogo: Bilicki,Denis  -Matrícula: 90876., 
+ ID : 4 -Odontólogo: Chavez,Gala  -Matrícula: 34562., 
+ ID : 5 -Odontólogo: Chavez,Gala  -Matrícula: 34562., 
+ ID : 6 -Odontólogo: Chavez,Gala  -Matrícula: 34562., 
+ ID : 7 -Odontólogo: Chavez,Gala  -Matrícula: 34562., 
+ ID : 8 -Odontólogo: Chavez,Gala  -Matrícula: 34562., 
+ ID : 9 -Odontólogo: Chavez,Gala  -Matrícula: 34562., 
+ ID : 10 -Odontólogo: Chavez,Gala  -Matrícula: 34562.]
+[2023-08-12 15:32:07] [ INFO ] [OdontologoDaoH2:39] Odontólogo registrado con éxito : 
+ ID : 11 -Odontólogo: Chavez,Gala  -Matrícula: 34562.
